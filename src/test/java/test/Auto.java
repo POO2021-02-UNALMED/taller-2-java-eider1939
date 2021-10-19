@@ -18,11 +18,11 @@ public class Auto {
 	}
 	String verificarIntegridad(){
 		String veri;
-		if (this.registro == asientos[0].registro || motor.registro==asientos[0].registro || this.registro==motor.registro) {
-			veri ="Auto original";
+		if (this.registro != asientos[0].registro || motor.registro!=asientos[0].registro || this.registro!=motor.registro) {
+			veri ="Las piezas no son originale";
 		}
 		else {
-			veri="Las piezas no son originales";
+			veri="Auto original";
 		}
 		return veri;
 	}
