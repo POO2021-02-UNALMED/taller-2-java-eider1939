@@ -9,5 +9,11 @@ public class Auto {
 	int registro;
 	int cantidadCreados;
 	
+    int cantidadAsientos() {
+		
+	}
+	String verificarIntegridad(){
+		
+	}
 	 
 }
