@@ -5,7 +5,7 @@ public class Motor {
 	String tipo;
 	int registro;
 	
-	void cmabiarRegistro(int registro) {
+	void cambiarRegistro(int registro) {
 		this.registro=registro;
 	}
 	void asignarTipo(String tipo) {
